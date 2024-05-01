@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <!-- Bootstrap CSS, pastikan menggunakan link CDN yang sesuai versi Bootstrap terbaru -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="text-warning">Build</span>Con</a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>                        
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/home4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Your Dream House</h5>
+                <p>= Step into your dream house, designed to perfection.</p>
+                <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+              </div>
+            </div>
+          <div class="carousel-item">
+            <img src="./assets/img/Home3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <h5>Always Dedicate</h5>
+                <p>= Dedication to excellence in every project.</p>
+                <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/img/Home5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h5>True Construction</h5>
+                  <p>=Building with reliability and innovation.</p>
+                  <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!--about section-->
+
+     <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <div class="about-img">
+                <img src="./assets/img/Home9.jpg" alt=""  class="img-fluid">
+                </div>
+            </div>
+             <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div class="about-text">
+                <h2>"Premium Services for Your Needs"<br> Services Ever</h2>
+                <p> Discover unparalleled quality with our Premium Services, meticulously designed to meet your individual needs. 
+                  Let us exceed your expectations by providing solutions precisely tailored to your requirements,
+                   enhancing your life where your needs drive our excellence. Experience the commitment to perfection that sets 
+                   our services apart in a class of their own.
+                      </p>
+                  <a href="#" class="btn btn-warning">Learn More</a>
+              </div>
+             </div>
+             </div>   
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!--Services section-->
+
+      <sectin id="services" class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Services</h2>
+                <p>At our company, we offer services designed to meet  <br> the highest standards in every aspect.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-subtract"></i>
+                  <h3 class="card title">Best Quality</h3>
+                  <p class="lead">We commit to delivering top-tier quality in every project, 
+                    ensuring that every detail is crafted with precision and excellence. 
+                    Our dedication to quality means we use only the finest materials and 
+                    cutting-edge techniques to bring your vision to life.</p>
+                    <button class="btn btn-warning text-dark">Read More</button>
+                </div>
+              </div>
+            </div>
+              <div class="col-12 col-md-12 col-lg-4">
+                <div class="card text-white text-center bg-dark pb-2">
+                  <div class="card-body">
+                    <i class="bi bi-slack"></i>
+                    <h3 class="card title">Sustainability</h3>
+                    <p class="lead">We prioritize sustainability in every design, using eco-friendly materials and innovative methods to minimize environmental impact. Our projects not only meet aesthetic standards but also enhance energy efficiency, contributing significantly to a sustainable future.</p>
+                      <button class="btn btn-warning text-dark">Read More</button>
+                  </div>
+                </div>
+              </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="card text-white text-center bg-dark pb-2">
+                    <div class="card-body">
+                      <i class="bi bi-playstation"></i>
+                      <h3 class="card title">Integrity</h3>
+                      <p class="lead">Integrity is at the core of all our interactions and business practices.
+                        We build trust with transparent communication and ethical conduct, 
+                        ensuring that our clients are treated with respect and fairness throughout every phase of the project.</p>
+                        <button class="btn btn-warning text-dark">Read More</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </sectin>
+
+      <!--portofolio section-->
+      <section id="portofolio" class="portofolio section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>My Projects</h2>
+                <p>Discover our portfolio,showcasing a commitment  <br> to innovative design and quality.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+           <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-bady text-dark">
+                <div class="img-area mb-4">
+                  <img src="./assets/img/Home1.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Experience the future of living with our modern home design, 
+                  where elegance and innovation blend seamlessly. Our architectural approach promises 
+                  not only visual splendor but also a smart, highly energy-efficient environment, tailored for contemporary lifestyles.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+           </div>
+           <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-bady text-dark">
+                <div class="img-area mb-4">
+                  <img src="./assets/img/Home2.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Experience the timeless charm of our classic European house, 
+                  where historical elegance is seamlessly integrated with luxurious modern comforts.
+                  Each element of this design has been crafted to reflect the grandeur and sophistication that only a classic European aesthetic can provide.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+           </div>
+           <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-bady text-dark">
+                <div class="img-area mb-4">
+                  <img src="./assets/img/Home7.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Discover a unique blend of tradition and trend with our hybrid European design,
+                  combining classical beauty with contemporary flair. This architectural masterpiece offers the perfect 
+                  balance of old-world sophistication and modern innovation, tailored to discerning tastes.
+                </p>
+                <button class="btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </section>
+
+    <!--contact section-->
+    <section id="contact" class="contact section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Contact Me</h2>
+              <p>Interested in collaborating? <br> Reach out to discuss your project and see how I can assist!.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row m-0">
+          <div class="col-md-12 p-0  pb-4"> 
+            <form action="#" class="bg-light p-4.m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" required placeholder="Your Full name">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" required placeholder="Your Email Here">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea rows="3" required class= "form-control" placeholder="Your Query Here"></textarea>
+                  </div>
+                </div>
+    
+                <button class="btn btn-warning btn-lg btn-block mt-3"> Send Now</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-dark p-2 text-center">
+      <div class="container">
+        <p class="text-white">All Right Reserved @Website Name</p>
+
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
